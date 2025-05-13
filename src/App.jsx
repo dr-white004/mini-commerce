@@ -5,6 +5,9 @@ import Navbar from './components/navbar'
 import Trying from './components/slider'
 import Feature from './components/feature'
 import ImageCarousel from './components/another'
+import Muneem from './components/muneem'
+import BlogSection from './components/downward'
+import Footer from './components/footer'
 function App() {
 
   return (
@@ -13,7 +16,10 @@ function App() {
      {/* <HorizontalSlider/> */}
      <Trying/>
      <Feature/>
+     <Muneem/>
      <ImageCarousel/>
+     <BlogSection/>
+     <Footer/>
     </>
   )
 }
